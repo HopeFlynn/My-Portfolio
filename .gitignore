@@ -10,13 +10,6 @@ node_modules/
 # VS Code settings
 .vscode/
 
-# Compiled CSS
-css/
-
 # Third-party libraries
 libs/
 
-# Bootstrap 4 files
-bs4/
-
-fonts
