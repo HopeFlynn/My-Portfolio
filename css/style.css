@@ -1,4 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700");
+.site-navigation {
+  text-align: center; /* Centers the navigation items */
+}
+
+.site-menu {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.site-menu li {
+  display: inline; /* Display items inline */
+  margin: 0 15px; /* Add spacing between items */
+}
+
+/* Additional styles for mobile */
+@media (max-width: 768px) {
+  .site-menu li {
+    display: block; /* Stack items vertically */
+    margin: 10px 0; /* Add vertical spacing */
+  }
+}
+
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
