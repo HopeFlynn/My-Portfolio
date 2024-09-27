@@ -11,8 +11,6 @@ jQuery(function($) {
 			var $this = $(this);
 			$this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
 		});
-
-
 		setTimeout(function() {
 			
 			var counter = 0;
@@ -83,8 +81,6 @@ jQuery(function($) {
 		});
 	}; 
 	siteMenuClone();
-
-
 	var sitePlusMinus = function() {
 		$('.js-btn-minus').on('click', function(e){
 			e.preventDefault();
@@ -169,7 +165,6 @@ jQuery(function($) {
     });
   };
   OnePageNavigation();
-
   var counterInit = function() {
 		if ( $('.section-counter').length > 0 ) {
 			$('.section-counter').waypoint( function( direction ) {
