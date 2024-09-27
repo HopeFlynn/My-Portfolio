@@ -127,7 +127,6 @@ jQuery(function($) {
   }
 
   siteIstotope();
-
   var fancyBoxInit = function() {
 	  $('.fancybox').on('click', function() {
 		  var visibleLinks = $('.fancybox');
@@ -138,8 +137,6 @@ jQuery(function($) {
 		});
 	}
 	fancyBoxInit();
-
-
 	var stickyFillInit = function() {
 		$(window).on('resize orientationchange', function() {
 	    recalc();
@@ -190,13 +187,10 @@ jQuery(function($) {
 						    numberStep: comma_separator_number_step
 						  }, 7000
 						);
-					});
-					
+					});					
 				}
-
 			} , { offset: '95%' } );
 		}
-
 	}
 	counterInit();
   
